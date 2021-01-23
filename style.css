@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap");
-
+/* global-style */
 * {
   margin: 0;
   padding: 0;
@@ -23,4 +23,69 @@ body {
 img {
   width: 100%;
   display: block;
+}
+
+/* typography */
+
+.title {
+  font-size: 1.5rem;
+  color: var(--grey-2);
+  font-weight: 600;
+}
+.subtitle,
+.email,
+.phone,
+.profile-body-text {
+  font-size: 1.125rem;
+}
+
+.email,
+.phone {
+  color: var(--grey-1);
+}
+
+.front-end .subtitle,
+.design .subtitle {
+  font-weight: 700;
+  color: var(--grey-1);
+  text-transform: uppercase;
+}
+
+.project-tag-container {
+  color: var(--grey-1);
+}
+.project-title {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: var(--grey-2);
+}
+.btn-container a {
+  font-size: 1.125rem;
+  text-decoration: none;
+}
+
+/* button */
+
+.btn-primay,
+.btn-outline {
+  padding: 0.72em 2.16em;
+  border: 1px solid var(--blue);
+  border-radius: 0.75rem;
+}
+.btn-primay {
+  background-color: var(--blue);
+  color: #ffffff;
+}
+.btn-outline {
+  color: var(--blue);
+}
+
+/* color */
+.email-info img,
+.phone-number img {
+  filter: invert(30%) sepia(5%) saturate(13%) hue-rotate(29deg) brightness(95%)
+    contrast(91%);
+}
+.project-bar .subtitle {
+  color: var(--grey-1);
 }
