@@ -35,7 +35,8 @@ img {
 .subtitle,
 .email,
 .phone,
-.profile-body-text {
+.profile-body-text,
+.body-text {
   font-size: 1.125rem;
 }
 
@@ -63,6 +64,27 @@ img {
   font-size: 1.125rem;
   text-decoration: none;
 }
+.service-time {
+  font-size: 0.875rem;
+}
+.service-title {
+  font-weight: 600;
+  color: var(--grey-2);
+}
+.hobby-title {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: var(--grey-2);
+}
+.blog-section a {
+  text-decoration: none;
+  color: var(--blue);
+  text-transform: lowercase;
+}
+
+footer p {
+  font-size: 0.875rem;
+}
 
 /* button */
 
@@ -86,6 +108,12 @@ img {
   filter: invert(30%) sepia(5%) saturate(13%) hue-rotate(29deg) brightness(95%)
     contrast(91%);
 }
-.project-bar .subtitle {
+.project-bar .subtitle,
+.blog-bar .subtitle {
+  color: var(--grey-1);
+}
+
+.experience-section .title,
+.hobbies-section .title {
   color: var(--grey-1);
 }
