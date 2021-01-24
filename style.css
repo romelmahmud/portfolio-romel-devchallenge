@@ -357,10 +357,10 @@ footer {
   }
 
   .aside {
-    width: 38%;
+    width: 32%;
   }
   main {
-    width: 60%;
+    width: 67%;
   }
   .contact-info {
     width: 50%;
@@ -375,11 +375,11 @@ footer {
   }
 
   .profile-card {
-    margin-bottom: 2.5em;
+    margin-bottom: 3rem;
   }
   .technology {
     margin-top: 0;
-    margin-bottom: 2.5em;
+    margin-bottom: 3rem;
     display: flex;
     align-items: flex-start;
   }
@@ -390,9 +390,37 @@ footer {
   .design {
     width: 45%;
   }
+  .hobbies-section,
+  .experience-section {
+    margin-bottom: 3rem;
+  }
+}
 
+@media (min-width: 950px) {
+  .project-section {
+    margin-bottom: 3rem;
+  }
   .project {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5em;
+  }
+  .project:last-child {
+    margin-bottom: 0;
+  }
+
+  .project-image {
+    width: 43%;
+  }
+
+  .project-image img {
+    height: 250px;
+    object-fit: cover;
+  }
+
+  .project-info {
+    width: 53%;
   }
 }
 
