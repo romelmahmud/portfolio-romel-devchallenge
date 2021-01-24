@@ -18,6 +18,7 @@ body {
   font-weight: 500;
   line-height: 1.218;
   color: var(--grey-3);
+  background-color: #f2f2f2;
 }
 
 img {
@@ -116,4 +117,47 @@ footer p {
 .experience-section .title,
 .hobbies-section .title {
   color: var(--grey-1);
+}
+
+/* layout */
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 2em auto;
+}
+.profile-card {
+  width: 95%;
+  margin: 1em auto;
+  padding: 1.2em 1.2em 2.5em;
+  background-color: white;
+  border-radius: 0.75rem;
+}
+
+.profile-card img {
+  border-radius: 0.75rem;
+  margin-bottom: 1.2em;
+}
+.profile-card .title {
+  margin-bottom: 0.3em;
+}
+.contact-info {
+  width: 70%;
+  margin: 2em 0;
+}
+
+.email-info,
+.phone-number {
+  display: flex;
+  justify-content: space-between;
+}
+
+.email-info img,
+.phone-number img {
+  width: 10%;
+  margin-bottom: 0.5em;
+}
+
+.email-info .email,
+.phone-number .phone {
+  width: 85%;
 }
