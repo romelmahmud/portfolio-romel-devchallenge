@@ -131,7 +131,8 @@ footer p {
 .design,
 .project-bar,
 .project,
-.experience-section {
+.experience-section,
+.hobbies-section {
   width: 95%;
   margin: 1em auto;
   padding: 1.2em 1.2em 2.5em;
@@ -258,6 +259,9 @@ footer p {
 /* ! project container :end */
 
 /* Experience section */
+.experience-section {
+  margin-bottom: 2.5em;
+}
 
 .experience-conatiner {
   margin-top: 2.5em;
@@ -284,3 +288,26 @@ footer p {
   margin-bottom: 2em;
 }
 /* !Experience section : end */
+
+/* hobbies section */
+.hobbies-section {
+  padding: 1.2em;
+  margin-bottom: 2.5em;
+}
+.hobbies-section .title {
+  margin-bottom: 1.1em;
+  font-weight: 500;
+}
+.hobby-image {
+  height: 140px;
+  object-fit: cover;
+  border-radius: 0.75rem;
+  margin-bottom: 1.5em;
+}
+.hobby-title {
+  margin-bottom: 0.6em;
+}
+.hobbies-container .body-text {
+  margin-bottom: 2.25em;
+  font-size: 0.875rem;
+}
