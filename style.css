@@ -123,7 +123,7 @@ footer p {
 /* profile card section */
 .container {
   width: 90%;
-  max-width: 1200px;
+  max-width: 1400px;
   margin: 3em auto;
 }
 .profile-card,
@@ -157,14 +157,15 @@ footer p {
 .email-info,
 .phone-number {
   display: flex;
-  justify-content: space-between;
-  align-items: space-between;
+  justify-content: flex-start;
 }
 
 .email-info img,
 .phone-number img {
-  width: 10%;
-  margin-bottom: 0.5em;
+  width: 21px;
+  height: 21px;
+  margin-right: 10px;
+  margin-top: 2px;
 }
 
 .email-info .email,
@@ -179,7 +180,7 @@ footer p {
 
 .front-end,
 .design {
-  padding: 1.2em;
+  padding: 1.2em 1, 2em 2em;
 }
 .front-end .subtitle,
 .design .subtitle,
@@ -344,4 +345,70 @@ footer {
   border-top: 1px solid #bdbdbd;
   padding-top: 1.75em;
   text-align: center;
+}
+
+/* Responsive */
+
+@media (min-width: 780px) {
+  .container {
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+  }
+
+  .aside {
+    width: 38%;
+  }
+  main {
+    width: 60%;
+  }
+  .contact-info {
+    width: 50%;
+    margin: 2em 0;
+  }
+
+  .email-info img,
+  .phone-number img {
+    width: 25px;
+    height: 25px;
+    margin-top: 0;
+  }
+
+  .profile-card {
+    margin-bottom: 2.5em;
+  }
+  .technology {
+    margin-top: 0;
+    margin-bottom: 2.5em;
+    display: flex;
+    align-items: flex-start;
+  }
+
+  .front-end {
+    width: 45%;
+  }
+  .design {
+    width: 45%;
+  }
+
+  .project {
+    display: flex;
+  }
+}
+
+@media (min-width: 1040px) {
+  .skill {
+    display: flex;
+    justify-content: space-between;
+  }
+  .skill-name {
+    width: 10%;
+  }
+  .skill-stats {
+    width: 60%;
+    margin-top: 3px;
+  }
+  .progress-bar {
+    margin-top: 0;
+  }
 }
