@@ -130,7 +130,8 @@ footer p {
 .front-end,
 .design,
 .project-bar,
-.project {
+.project,
+.experience-section {
   width: 95%;
   margin: 1em auto;
   padding: 1.2em 1.2em 2.5em;
@@ -253,3 +254,33 @@ footer p {
   max-width: 400px;
   min-width: 270px;
 }
+
+/* ! project container :end */
+
+/* Experience section */
+
+.experience-conatiner {
+  margin-top: 2.5em;
+}
+.experience {
+  display: flex;
+  margin-bottom: 4em;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.experience:last-child {
+  margin-bottom: 0;
+}
+.experience img {
+  width: 18%;
+}
+.experience-info {
+  width: 70%;
+}
+.service-time {
+  margin-bottom: 1em;
+}
+.service-title {
+  margin-bottom: 2em;
+}
+/* !Experience section : end */
