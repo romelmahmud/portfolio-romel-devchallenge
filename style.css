@@ -120,12 +120,15 @@ footer p {
 }
 
 /* layout */
+/* profile card section */
 .container {
   width: 90%;
   max-width: 1200px;
   margin: 2em auto;
 }
-.profile-card {
+.profile-card,
+.front-end,
+.design {
   width: 95%;
   margin: 1em auto;
   padding: 1.2em 1.2em 2.5em;
@@ -160,4 +163,51 @@ footer p {
 .email-info .email,
 .phone-number .phone {
   width: 85%;
+}
+/* !profile card section :end */
+/* tecnology section */
+.technology {
+  margin: 2.5em 0;
+}
+
+.front-end,
+.design {
+  padding: 1.2em;
+}
+.front-end .subtitle,
+.design .subtitle,
+.skill {
+  margin-bottom: 1em;
+}
+.skill:last-child {
+  margin-bottom: 0;
+}
+
+.skill-stats {
+  width: 80%;
+  height: 0.6rem;
+  background-color: #c4c4c4;
+  border-radius: 0.75rem;
+  margin-top: 0.5em;
+}
+.progress-bar {
+  width: 80%;
+  height: 0.6rem;
+  background-color: var(--blue);
+  border-radius: 0.75rem;
+  margin-top: 0.5em;
+}
+
+.pro-90 {
+  width: 90%;
+}
+
+.pro-50 {
+  width: 50%;
+}
+.pro-70 {
+  width: 70%;
+}
+.pro-60 {
+  width: 60%;
 }
