@@ -154,6 +154,7 @@ footer p {
 .phone-number {
   display: flex;
   justify-content: space-between;
+  align-items: space-between;
 }
 
 .email-info img,
@@ -224,8 +225,7 @@ footer p {
 }
 
 .project {
-  display: flex;
-  flex-direction: column;
+  margin-bottom: 2.5em;
 }
 .project-tag-container {
   display: flex;
@@ -241,11 +241,15 @@ footer p {
 .project .body-text {
   margin-bottom: 2em;
 }
+.project img {
+  border-radius: 0.75rem;
+}
 
 .btn-container {
   margin: 1.125em 0;
   display: flex;
   justify-content: space-between;
-  width: 82%;
-  max-width: 300px;
+  width: 70%;
+  max-width: 400px;
+  min-width: 270px;
 }
